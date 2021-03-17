@@ -1,0 +1,15 @@
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\bin\Debug\Rock-Paper-Scissors.exe.config
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\bin\Debug\Rock-Paper-Scissors.exe
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\bin\Debug\Rock-Paper-Scissors.pdb
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\Rock-Paper-Scissors.csprojAssemblyReference.cache
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\MainWindow.g.cs
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\App.g.cs
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\Rock-Paper-Scissors_MarkupCompile.cache
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\Rock-Paper-Scissors_MarkupCompile.lref
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\MainWindow.baml
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\Rock-Paper-Scissors.g.resources
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\Rock_Paper_Scissors.Properties.Resources.resources
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\Rock-Paper-Scissors.csproj.GenerateResource.cache
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\Rock-Paper-Scissors.csproj.CoreCompileInputs.cache
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\Rock-Paper-Scissors.exe
+C:\Users\mwitt\source\repos\Rock-Paper-Scissors\obj\Debug\Rock-Paper-Scissors.pdb

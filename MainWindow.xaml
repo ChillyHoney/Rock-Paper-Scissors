@@ -1,0 +1,123 @@
+﻿<Window x:Class="Rock_Paper_Scissors.MainWindow"        
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rock_Paper_Scissors"
+        mc:Ignorable="d"
+        Title="Rock Papers Scissors" Height="630" Width="485">
+
+    <StackPanel Margin="15">
+        <Grid>
+
+            <Grid.Resources>
+                <Style TargetType="{x:Type Grid}">
+                    <Setter Property="Margin" Value="-5 0"/>
+                </Style>
+            </Grid.Resources>
+
+            <Grid>
+                <Grid.Resources>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Margin" Value="10 0"/>
+                    </Style>
+                </Grid.Resources>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="btnOnePoint" Grid.Column="0" Content="Up to 1 point " Click="btnOnePoint_Click" />
+                <Button x:Name="btnThreePoint" Grid.Column="1" Content="Up to 3 points " Height="20" VerticalAlignment="Top" Click="btnThreePoint_Click" />
+                <Button x:Name="btnFivePoint" Grid.Column="2" Content="Up to 5 points " Click="btnFivePoint_Click" Height="20" VerticalAlignment="Top" />
+            </Grid>
+        </Grid>
+
+        <Grid Margin="10"/>
+
+        <Grid>
+            <Grid.Resources>
+                <Style TargetType="{x:Type Grid}">
+                    <Setter Property="Margin" Value="-5 0"/>
+                </Style>
+            </Grid.Resources>
+
+            <Grid>
+                <Grid.Resources>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Margin" Value="10 0"/>
+                    </Style>
+                </Grid.Resources>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="125"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+
+                <Button x:Name="btnRock" Background="White" BorderThickness="0" Click="btnRock_Click">
+                    <StackPanel >
+                        <Image Source="https://jonathanyiv.github.io/rock-paper-scissors/assets/images/rock.jpg" Width="134" Height="134" RenderTransformOrigin="1.4,1.1"/>
+                        <TextBlock/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btnPaper" Grid.Column="1" Background="White" BorderThickness="0" Click="btnPaper_Click">
+                    <StackPanel >
+                        <Image Source="https://studio.code.org/v3/assets/A2SRu-eyjeKId-hZqDedVlscWzS_u_g01W2T5Ei2Sro/21mag-abstractimages-slide-2T4N-jumbo.jpg" Width="134" Height="134" RenderTransformOrigin="1.4,1.1"/>
+                        <TextBlock/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btnScissors" Grid.Column="2" Background="White" BorderThickness="0" Click="btnScissors_Click">
+                    <StackPanel>
+                        <Image Source="http://graphics8.nytimes.com/images/2011/08/21/magazine/21mag-abstractimages-slide-IRQ1/21mag-abstractimages-slide-IRQ1-jumbo.jpg" Width="134" Height="134" RenderTransformOrigin="1.4,1.1"/>
+                        <TextBlock/>
+                    </StackPanel>
+                </Button>
+                <!--<Button Grid.Column="0" Content="Rock" /> 
+                <Button Grid.Column="1" Content="Paper" />
+                <Button Grid.Column="2" Content="Scissors" />-->
+            </Grid>
+        </Grid>
+        <Grid Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="LabelGameIsUpTo" Grid.Row="0" Content=" " HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+        </Grid>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+
+            <Label x:Name="LabelYou" Grid.Column="0" Content="You: 0" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+            <Label x:Name="LabelAI" Grid.Column="1" Content="AI: 0" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+        </Grid>
+
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="5*" />
+            </Grid.ColumnDefinitions>
+            <Image  x:Name="imgYou" Source="https://www.esquireme.com/public/styles/full_img/public/images/2017/05/29/rock_paper_scissors__2x.png?itok=XyCX7Spl" Grid.Column="0" HorizontalAlignment="Center"  />
+            <Image x:Name="imgAI" Source="https://www.esquireme.com/public/styles/full_img/public/images/2017/05/29/rock_paper_scissors__2x.png?itok=XyCX7Spl" Grid.Column="2" HorizontalAlignment="Center"  />
+            <Image Source="https://e7.pngegg.com/pngimages/312/147/png-clipart-versus-logo-youtube-internet-online-shopping-rapper-youtube-monochrome-silhouette-thumbnail.png" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+
+        <Grid Margin="5">
+            <Label Name="LabelResult" Content="Result" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center"/>
+        </Grid>
+
+    </StackPanel>
+
+
+</Window>
